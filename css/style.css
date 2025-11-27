@@ -104,7 +104,7 @@ section {
     margin-top: 0;
 }
 
-#menu-btn {
+#manual-btn {
     font-size: 3rem;
     color: var(--main-color);
     cursor: pointer;
@@ -113,32 +113,32 @@ section {
 
 /* INÍCIO */
 
-.home {
+.início {
     min-height: 100vh;
     padding-top: 12rem;
-    background: url(../image/home-bg.jpg) no-repeat;
+    background: url(../image/início-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.home .row {
+.início .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.home .row .content {
+.início .row .content {
     flex: 1 1 42rem;
 }
 
-.home .row .image {
+.início .row .image {
     flex: 1 1 42rem;
     padding-top: 10rem;
     text-align: center;
 }
 
-.home .row .image img {
+.início .row .image img {
     height: 35rem;
     animation: float 4s linear infinite;
 }
@@ -155,47 +155,47 @@ section {
     }
 }
 
-.home .row .content h3 {
+.início .row .content h3 {
     font-size: 6.5rem;
     color: var(--main-color);
     text-transform: uppercase;
 }
 
-.home .image-slider {
+.início .image-slider {
     text-align: center;
     padding: 3rem 0;
 }
 
-.home .image-slider img {
+.início .image-slider img {
     height: 9rem;
     margin: 0 .5rem;
     cursor: pointer;
     margin-top: 5rem;
 }
 
-.home .image-slider img:hover {
+.início .image-slider img:hover {
     transform: translateY(-2rem);
 }
 
 /* INFORMAÇÕES */
 
-.about .row {
+.informações .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.about .row .image {
+.informações .row .image {
     flex: 1 1 42rem;
 }
 
-.about .row .image img {
+.informações .row .image img {
     width: 100%;
-    animation: aboutImage 4s linear infinite;
+    animation: informaçõesImage 4s linear infinite;
 }
 
-@keyframes aboutImage {
+@keyframes informaçõesImage {
 
     0%,
     100% {
@@ -209,31 +209,31 @@ section {
     }
 }
 
-.about .row .content {
+.informações .row .content {
     flex: 1 1 42rem;
 }
 
-.about .row .content .title {
+.informações .row .content .title {
     color: var(--main-color);
     font-size: 3rem;
     line-height: 1.8;
 }
 
-.about .row .content p {
+.informações .row .content p {
     color: var(--main-color);
     font-size: 1.5rem;
     line-height: 1.8;
     padding: 1rem 0;
 }
 
-.about .row .content .icons-container {
+.informações .row .content .icons-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     padding-top: 3rem;
 }
 
-.about .row .content .icons-container .icons {
+.informações .row .content .icons-container .icons {
     flex: 1 1 15rem;
     padding: 1.5rem;
     text-align: center;
@@ -241,11 +241,11 @@ section {
     border-radius: var(--border-radius);
 }
 
-.about .row .content .icons-container .icons img {
+.informações .row .content .icons-container .icons img {
     height: 5rem;
 }
 
-.about .row .content .icons-container .icons h3 {
+.informações .row .content .icons-container .icons h3 {
     font-size: 1.7rem;
     padding-top: 1rem;
     color: var(--main-color);
@@ -253,8 +253,8 @@ section {
 
 /* MANUAL */
 
-.menu {
-    background: url(../image/menu-bg.jpg) no-repeat;
+.manual {
+    background: url(../image/manual-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -407,11 +407,11 @@ button:hover {
         font-size: 2.3rem;
     }
 
-    #menu-btn {
+    #manual-btn {
         display: initial;
     }
 
-    #menu-btn.fa-times {
+    #manual-btn.fa-times {
         transform: rotate(180deg);
     }
 
@@ -435,22 +435,22 @@ button:hover {
         padding: 1.5rem 2rem;
     }
 
-    .home {
+    .início {
         text-align: center;
     }
 
-    .home .row .content h3 {
+    .início .row .content h3 {
         font-size: 4rem;
     }
 
-    .menu .box-container .box {
+    .manual .box-container .box {
         margin-left: 0;
         margin-top: 6rem;
         flex-flow: column;
         text-align: center;
     }
 
-    .menu .box-container .box img {
+    .manual .box-container .box img {
         margin-left: 0;
         margin-top: -6rem;
     }
@@ -461,7 +461,7 @@ button:hover {
         font-size: 50%;
     }
 
-    .home .row .image img {
+    .início .row .image img {
         height: auto;
         width: 100%;
     }
