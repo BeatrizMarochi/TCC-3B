@@ -1,206 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal Escolar</title>
+    <title>Escola • Página Inicial</title>
 
-    <!-- SWIPER -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Link do Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Seu CSS -->
+    <link rel="stylesheet" href="style.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
+    <!-- Fonte Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
-        <div id="menu-btn" class="fas fa-bars"></div>
-
-        <a href="#" class="logo">Escola <i class="fas fa-school"></i></a>
+    <!-- Menu Superior -->
+    <header>
+        <a href="#" class="logo">Escola</a>
 
         <nav class="navbar">
-            <a href="#inicio">início</a>
-            <a href="#informacoes">informações</a>
-            <a href="#manual">manual</a>
-            <a href="#materias">matérias</a>
-            <a href="#contato">contato</a>
+            <a href="#inicio">Início</a>
+            <a href="#informacoes">Informações</a>
+            <a href="#manual">Manual</a>
+            <a href="#materias">Matérias</a>
+            <a href="#contato">Contato</a>
         </nav>
 
-        <a href="#contato" class="btn">fale conosco</a>
+        <div id="menu-btn" class="fas fa-bars"></div>
     </header>
 
-    <!-- INÍCIO -->
-    <section class="home" id="inicio">
-        <div class="row">
-            <div class="content">
-                <h3>Bem-vindo ao Portal Escolar</h3>
-                <p>Acompanhe avisos, matérias, atividades e todas as novidades da nossa escola.</p>
-                <a href="#informacoes" class="btn">saiba mais</a>
-            </div>
-
-            <div class="image">
-                <img src="image/home-img-1.png" class="main-home-image" alt="Imagem inicial da escola">
-            </div>
+    <!-- ========== INÍCIO ========== -->
+    <section class="inicio" id="inicio">
+        <div class="content">
+            <h3>Bem-vindo à Nossa Escola</h3>
+            <p>Formando alunos com excelência, dedicação e carinho.</p>
+            <a href="#informacoes" class="btn">Saiba mais</a>
         </div>
 
         <div class="image-slider">
-            <img src="image/home-img-1.png" alt="">
-            <img src="image/home-img-2.png" alt="">
-            <img src="image/home-img-3.png" alt="">
+            <img src="img/escola1.jpg" alt="">
+            <img src="img/escola2.jpg" alt="">
+            <img src="img/escola3.jpg" alt="">
         </div>
+
+        <img src="img/escola1.jpg" class="main-inicio-image" alt="">
     </section>
 
-    <!-- INFORMAÇÕES -->
-    <section class="about" id="informacoes">
-        <h1 class="heading">informações <span>sobre a escola</span></h1>
-
-        <div class="row">
-            <div class="image">
-                <img src="image/about-img.png" alt="Sobre a escola">
-            </div>
-
-            <div class="content">
-                <h3 class="title">Nossa missão</h3>
-                <p>Nossa escola busca oferecer educação de qualidade, promovendo o desenvolvimento acadêmico, cultural e social de nossos estudantes.</p>
-                <a href="#" class="btn">ver mais</a>
-                
-                <div class="icons-container">
-                    <div class="icons">
-                        <img src="image/about-icon-1.png" alt="">
-                        <h3>professores qualificados</h3>
-                    </div>
-                    <div class="icons">
-                        <img src="image/about-icon-2.png" alt="">
-                        <h3>infraestrutura moderna</h3>
-                    </div>
-                    <div class="icons">
-                        <img src="image/about-icon-3.png" alt="">
-                        <h3>atividades extras</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- MANUAL DO ALUNO -->
-    <section class="menu" id="manual">
-        <h1 class="heading">manual <span>manual do aluno</span></h1>
+    <!-- ========== INFORMAÇÕES ========== -->
+    <section class="informacoes" id="informacoes">
+        <h1 class="heading">Informações da Escola</h1>
 
         <div class="box-container">
             <div class="box">
-                <img src="image/menu-1.png" alt="">
-                <div class="content">
-                    <h3>regras da escola</h3>
-                    <p>Conheça todas as normas e orientações para um ambiente de convivência saudável.</p>
-                </div>
+                <i class="fas fa-school"></i>
+                <h3>Sobre Nós</h3>
+                <p>A escola oferece educação de qualidade, com professores capacitados e estrutura moderna.</p>
             </div>
 
             <div class="box">
-                <img src="image/menu-2.png" alt="">
-                <div class="content">
-                    <h3>horários</h3>
-                    <p>Veja os horários de entrada, saída e intervalos.</p>
-                </div>
+                <i class="fas fa-user-graduate"></i>
+                <h3>Missão</h3>
+                <p>Preparar cidadãos éticos, críticos e prontos para o futuro.</p>
             </div>
 
             <div class="box">
-                <img src="image/menu-3.png" alt="">
-                <div class="content">
-                    <h3>documentos importantes</h3>
-                    <p>Guia de matrícula, requerimentos e orientações gerais.</p>
-                </div>
+                <i class="fas fa-book"></i>
+                <h3>Valores</h3>
+                <p>Respeito, empatia, disciplina e compromisso com o conhecimento.</p>
             </div>
         </div>
     </section>
 
-    <!-- MATÉRIAS -->
-    <section class="review" id="materias">
-        <h1 class="heading">matérias <span>conteúdos recentes</span></h1>
+    <!-- ========== MANUAL ========== -->
+    <section class="manual" id="manual">
+        <h1 class="heading">Manual do Aluno</h1>
+        <p class="descricao">Consulte regras, orientações e procedimentos de convivência escolar.</p>
+
+        <div class="manual-container">
+            <a href="manual.pdf" class="btn" download>Baixar Manual</a>
+        </div>
+    </section>
+
+    <!-- ========== MATÉRIAS (Swiper) ========== -->
+    <section class="materias" id="materias">
+        <h1 class="heading">Matérias</h1>
 
         <div class="swiper review-slider">
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide box">
-                    <i class="fas fa-book"></i>
-                    <img src="image/pic-1.png" alt="">
-                    <p>Últimas atividades e conteúdos de Português.</p>
-                    <h3>Profª Ana</h3>
-                    <span>Ensino Fundamental</span>
+                    <h3>Matemática</h3>
+                    <p>Cálculos, lógica e raciocínio preciso.</p>
                 </div>
 
                 <div class="swiper-slide box">
-                    <i class="fas fa-book"></i>
-                    <img src="image/pic-2.png" alt="">
-                    <p>Novidades e exercícios de Matemática.</p>
-                    <h3>Prof. Marcos</h3>
-                    <span>Ensino Médio</span>
+                    <h3>Português</h3>
+                    <p>Leitura, escrita e interpretação.</p>
                 </div>
 
                 <div class="swiper-slide box">
-                    <i class="fas fa-book"></i>
-                    <img src="image/pic-3.png" alt="">
-                    <p>Conteúdos atualizados de Ciências.</p>
-                    <h3>Profª Júlia</h3>
-                    <span>6º ao 9º ano</span>
+                    <h3>Ciências</h3>
+                    <p>Explorando o mundo e seus fenômenos.</p>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h3>História</h3>
+                    <p>Conhecendo o passado para entender o presente.</p>
                 </div>
 
             </div>
+
             <div class="swiper-pagination"></div>
         </div>
     </section>
 
-    <!-- CONTATO -->
-    <section class="book" id="contato">
-        <h1 class="heading">contato <span>fale conosco</span></h1>
+    <!-- ========== CONTATO ========== -->
+    <section class="contato" id="contato">
+        <h1 class="heading">Contato</h1>
 
-        <form action="">
-            <input type="text" placeholder="Nome completo" class="box">
-            <input type="email" placeholder="E-mail" class="box">
-            <input type="number" placeholder="Telefone" class="box">
-            <textarea placeholder="Mensagem" class="box" cols="30" rows="10"></textarea>
-            <input type="submit" value="enviar mensagem" class="btn">
+        <form>
+            <input type="text" placeholder="Seu nome" class="input-box">
+            <input type="email" placeholder="Seu e-mail" class="input-box">
+            <textarea placeholder="Sua mensagem" class="input-box"></textarea>
+            <button class="btn">Enviar</button>
         </form>
     </section>
 
-    <!-- RODAPÉ -->
-    <section class="footer">
-        <div class="box-container">
-
-            <div class="box">
-                <h3>links úteis</h3>
-                <a href="#inicio"><i class="fas fa-arrow-right"></i> início</a>
-                <a href="#informacoes"><i class="fas fa-arrow-right"></i> informações</a>
-                <a href="#manual"><i class="fas fa-arrow-right"></i> manual</a>
-                <a href="#materias"><i class="fas fa-arrow-right"></i> matérias</a>
-                <a href="#contato"><i class="fas fa-arrow-right"></i> contato</a>
-            </div>
-
-            <div class="box">
-                <h3>contato</h3>
-                <a><i class="fas fa-phone"></i> (00) 0000-0000</a>
-                <a><i class="fas fa-envelope"></i> escola@email.com</a>
-                <a><i class="fas fa-map-marker-alt"></i> Sua cidade, Brasil</a>
-            </div>
-
-        </div>
-
-        <div class="credit">desenvolvido por <span>sua escola</span> | todos os direitos reservados</div>
-    </section>
-
-    <!-- SWIPER -->
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-    <!-- JS -->
-    <script src="js/script.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
-
 </html>
