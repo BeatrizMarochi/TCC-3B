@@ -114,9 +114,10 @@ section {
 /* inicio */
 
 .home {
+   .home {
     min-height: 100vh;
     padding-top: 12rem;
-    background: url('../image/AZUL.jpg');
+    background: url(/img/azul.jpg) center/cover no-repeat;
     background-position: center;
     background-size: cover;
 }
