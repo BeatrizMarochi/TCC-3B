@@ -111,13 +111,12 @@ section {
     display: none;
 }
 
-/* inicio */
+/* HOME */
 
-.home {
 .home {
     min-height: 100vh;
     padding-top: 12rem;
-    background: url(../img/AZUL.jpg)
+    background: url(../image/home-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -142,37 +141,6 @@ section {
 .home .row .image img {
     height: 35rem;
     animation: float 4s linear infinite;
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0rem);
-    }
-    50% {
-        transform: translateY(-7rem);
-    }
-}
-
-.home .row .content h3 {
-    font-size: 6.5rem;
-    color: var(--main-color);
-    text-transform: uppercase;
-}
-
-.home .image-slider {
-    text-align: center;
-    padding: 3rem 0;
-}
-
-.home .image-slider img {
-    height: 9rem;
-    margin: 0 .5rem;
-    cursor: pointer;
-    margin-top: 5rem;
-}
-
-.home .image-slider img:hover {
-    transform: translateY(-2rem);
 }
 
 @keyframes float {
@@ -209,7 +177,7 @@ section {
     transform: translateY(-2rem);
 }
 
-/* informações */
+/* ABOUT */
 
 .about .row {
     display: flex;
@@ -283,36 +251,8 @@ section {
     color: var(--main-color);
 }
 
-/* MANUAL */
+/* MENU */
 
-/* Centralizar o botão */
-.btn-center {
-    width: 100%;
-    display: flex;
-    justify-content: center;  /* Centraliza horizontalmente */
-    margin-top: 30px;         /* Espaço em cima (opcional) */
-}
-
-/* Estilo do botão */
-.btn-download {
-    display: inline-block;
-    background: #005bea;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 91, 234, 0.35);
-}
-
-/* Animação ao passar o mouse */
-.btn-download:hover {
-    background: #0041a8;
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 10px 25px rgba(0, 91, 234, 0.45);
-}
 .menu {
     background: url(../image/menu-bg.jpg) no-repeat;
     background-position: center;
@@ -366,7 +306,7 @@ section {
     line-height: 1.8;
 }
 
-/* manual */
+/* REVIEW */
 
 .review .review-slider {
     padding: 7rem 0;
@@ -527,7 +467,33 @@ section {
     border-bottom: var(--border-hover);
 }
 
-/* contato  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
 
 @media (max-width: 991px) {
     html {
