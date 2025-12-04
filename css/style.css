@@ -111,7 +111,7 @@ section {
     display: none;
 }
 
-/* HOME */
+/* inicio */
 
 .home {
     min-height: 100vh;
@@ -177,7 +177,7 @@ section {
     transform: translateY(-2rem);
 }
 
-/* ABOUT */
+/* informações */
 
 .about .row {
     display: flex;
@@ -251,62 +251,37 @@ section {
     color: var(--main-color);
 }
 
-/* MENU */
-
-.menu {
-    background: url(../image/menu-bg.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.menu .box-container {
+/* manual */
+/* ==== Centralizar o botão ==== */
+.btn-center {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 30px;        /* Espaçamento superior */
 }
 
-.menu .box-container .box {
-    flex: 1 1 42rem;
-    padding: 2rem;
-    border: var(--border);
-    border-radius: var(--border-radius);
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin-left: 6rem;
+/* ==== Estilo do botão ==== */
+.btn-download {
+    display: inline-block;
+    background: #005bea;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 91, 234, 0.35);
 }
 
-.menu .box-container .box:hover {
-    border: var(--border-hover);
-    border-radius: var(--border-radius-hover);
+/* ==== Efeito hover ==== */
+.btn-download:hover {
+    background: #0041a8;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 91, 234, 0.45);
 }
 
-.menu .box-container .box img {
-    height: 8rem;
-    margin-left: -6rem;
-}
-
-.menu .box-container .box .content h3 {
-    font-size: 2.2rem;
-    color: var(--main-color);
-    line-height: 1.8;
-}
-
-.menu .box-container .box .content p {
-    font-size: 1.6rem;
-    color: var(--main-color);
-    line-height: 1.8;
-    padding: 1rem 0;
-}
-
-.menu .box-container .box .content span {
-    font-size: 2rem;
-    color: var(--main-color);
-    line-height: 1.8;
-}
-
-/* REVIEW */
+/* tecnico */
 
 .review .review-slider {
     padding: 7rem 0;
@@ -391,7 +366,7 @@ section {
     background: var(--main-color);
 }
 
-/* BOOK */
+/* contato */
 
 .book {
     background: url(../image/book-bg.jpg);
@@ -466,31 +441,6 @@ section {
 .footer .credit span {
     border-bottom: var(--border-hover);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* MEDIA QUERIES */
